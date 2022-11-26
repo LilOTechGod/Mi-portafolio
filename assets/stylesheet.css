@@ -1,19 +1,26 @@
 #showcase {
-    height: 444px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #bgPic {
     background-image: url("https://www.howtogeek.com/wp-content/uploads/2018/08/shutterstock_407554567.jpg?height=200p&trim=2,2,2,2");
-    min-height: 45vh;
-    background-size: cover;
+    min-height: 50vh;
+    background-size: contain;
     background-position: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: relative;
-    bottom: 11%;
 }
 
 .Me {
-    justify-content: space-between;
+    padding: 45px 25px 195px 25px;
+}
+
+#projects {
+ width:100%
+}
+
+#aboutme1 {
+    padding: 57px 1px 1px 1px;
 }
